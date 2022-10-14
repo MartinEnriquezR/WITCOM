@@ -249,12 +249,12 @@ section {
 .header .logo h1 {
   font-size: 32px;
   font-weight: 300;
-  color: var(--color-secondary);
+  color: white;
   font-family: var(--font-secondary);
 }
 
 .header .logo h1 span {
-  color: var(--color-primary);
+  color: rgb(13,92,190);
   font-weight: 500;
 }
 
@@ -317,7 +317,7 @@ section {
     font-family: var(--font-secondary);
     font-size: 16px;
     font-weight: 400;
-    color: rgba(var(--color-secondary-dark-rgb), 0.7);
+    color: rgba(var(--color-primary-rgb), 0.7);
     white-space: nowrap;
     transition: 0.3s;
     position: relative;
@@ -535,7 +535,7 @@ section {
 
   .mobile-nav-toggle {
     display: block !important;
-    color: var(--color-secondary);
+    color: var(--color-primary);
     font-size: 28px;
     cursor: pointer;
     line-height: 0;
@@ -950,7 +950,7 @@ section {
 .hero-fullscreen {
   width: 100%;
   min-height: 100vh;
-  background: url("../img/hero-fullscreen-bg.jpg") center center;
+  background: url("../img/bg/2c.png") center center;
   background-size: cover;
   position: relative;
   padding: 120px 0 60px;
@@ -958,7 +958,7 @@ section {
 
 .hero-fullscreen:before {
   content: "";
-  background: rgba(var(--color-white-rgb), 0.85);
+  background: rgba(var(--color-black-rgb), 0.70);
   position: absolute;
   inset: 0;
 }
@@ -973,7 +973,7 @@ section {
   margin: 0 0 10px 0;
   font-size: 48px;
   font-weight: 300;
-  color: var(--color-secondary);
+  color: white;
   font-family: var(--font-secondary);
 }
 
@@ -982,7 +982,7 @@ section {
 }
 
 .hero-fullscreen p {
-  color: rgba(var(--color-secondary-rgb), 0.8);
+  color: rgba(var(--color-white-rgb), 0.8);
   margin: 0 0 30px 0;
   font-size: 20px;
   font-weight: 400;

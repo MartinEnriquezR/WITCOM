@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
-
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>WITCOM 22</title>
+  <title>WITCOM 2022</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -27,14 +25,8 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Variables CSS Files. Uncomment your preferred color scheme -->
-  <!-- <link href="assets/css/variables.css" rel="stylesheet"> -->
-  <!-- <link href="assets/css/variables-blue.css" rel="stylesheet"> -->
+  <!-- Variables CSS Files-->
   <link href="assets/css/variables-orange.css" rel="stylesheet">
-  <!-- <link href="assets/css/variables-green.css" rel="stylesheet"> -->
-  <!-- <link href="assets/css/variables-purple.css" rel="stylesheet"> -->
-  <!-- <link href="assets/css/variables-red.css" rel="stylesheet"> -->
-  <!-- <link href="assets/css/variables-pink.css" rel="stylesheet"> -->
 
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
@@ -42,7 +34,6 @@
 
 <body>
 
-  <!--TODO colocar las referencias, a que seccion de la pagina lleva el navbar-->
   <!-- Header -->
   <header id="header" class="header fixed-top" data-scrollto-offset="0">
     <div class="container-fluid d-flex align-items-center justify-content-between">
@@ -59,28 +50,59 @@
       <!--Navbar start-->
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto" href="index.html">Home</a></li>
-          <li><a class="nav-link scrollto" href="">Program</a></li>
-          <li><a class="nav-link scrollto" href="">Speakers</a></li>
-          <li><a class="nav-link scrollto" href="past-editions.html">Past Editions</a></li>
-          <li><a class="nav-link scrollto" href="cost-and-registration.html">Cost & Registration</a></li>
-          <li><a class="nav-link scrollto" href="">Venue & Hotel</a></li>
-          <li class="dropdown"><a href="#"><span>CFP & Submission</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+          <li>
+            <a class="nav-link scrollto" href="index.html">
+              Home
+            </a>
+          </li>
+          <li>
+            <a class="nav-link scrollto" href="index.html#program">
+              Program
+            </a>
+          </li>
+          <li>
+            <a class="nav-link scrollto" href="index.html#team">
+              Speakers
+            </a>
+          </li>
+          <li>
+            <a class="nav-link scrollto" href="past-editions.html">
+              Past Editions
+            </a>
+          </li>
+          <li>
+            <a class="nav-link scrollto" href="cost-and-registration.html">
+              Cost & Registration
+            </a>
+          </li>
+          <li>
+            <a class="nav-link scrollto" href="index.html#venue">
+              Venue & Hotel
+            </a>
+          </li>
+          <li class="dropdown">
+            <a href="#">
+              <span>CFP & Submission</span> <i class="bi bi-chevron-down dropdown-indicator"></i>
+            </a>
+            
             <ul>
-              <li><a href="">Call for papers</a></li>
+              <li>
+                <a class="nav-link scrollto" href="index.html#callpapers">
+                  Call for papers
+                </a>
+              </li>
               <li><a href="https://easychair.org/my/conference?conf=witcom2022">Submit a paper</a></li>
               <li><a href="reviewers-and-pc.html">Reviewers & PC</a></li>
             </ul>
+
           </li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle d-none"></i>
       </nav>
       <!-- navbar end -->
-
       <!--
       <a class="btn-getstarted scrollto" href="index.html#about">Boton</a>
       -->
-
     </div>
   </header>
   <!-- End Header -->
@@ -100,12 +122,30 @@
   </section>
   <!--Welcom area end-->
 
-  <!--TODO colocar la otra imagen de bienvenida-->
+  <!--Second welcom area-->
+  <section id="second-hero-fullscreen" class="second-hero-fullscreen d-flex align-items-center">
+    <div class="container d-flex flex-column align-items-center position-relative" data-aos="zoom-out">
+      <h2>
+        The <span>11th</span> International Congress in
+      </h2>
+      <h2>
+        <span>Telematics</span> 
+        and 
+        <span>Computing</span>
+      </h2>
+      <p>November 7-11, 2022</p>
+      <div class="d-flex">
+        <a href="index.html/#onfocus" class="btn-get-started scrollto">
+          View more
+        </a>
+      </div>
+    </div>
+  </section>
+  <!--End-->
 
   <!--Main start-->
   <main id="main">
 
-    <!--TODO cambiar la imagen -->
     <!-- ======= Texto Section ======= -->
     <section id="onfocus" class="onfocus">
       <div class="container-fluid p-0" data-aos="fade-up">
@@ -114,6 +154,7 @@
           <div class="col-lg-6 video-play position-relative">
             
           </div>
+          
           <div class="col-lg-6">
             <div class="content d-flex flex-column justify-content-center h-100">
               <h3>WE ARE #WITCOM2022 FOR MEXICO</h3>
@@ -145,16 +186,14 @@
     </section>
     <!-- Texto Section -->
 
-    <!--TODO colocar la imagen de call for papers-->
-
     <!-- ======= Call for papers Section ======= -->
-    <section id="about" class="about">
+    <section id="callpapers" class="about">
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
           <h2>Call for Papers</h2>
           <p>
-            <a href="/callforpapers.html">
+            <a href="callforpapers.html">
               DOWNLOAD TEMPLATES, TOPICS & CFP IN PDF
             </a>
           </p>
@@ -162,30 +201,27 @@
 
         <div class="row g-4 g-lg-5" data-aos="fade-up" data-aos-delay="200">
 
-          <!--Imagen section start-->
-          <div class="col-lg-5">
-            <div class="about-img">
-              <img src="assets/img/about.jpg" class="img-fluid" alt="">
-            </div>
-          </div>
-          <!--Image section end-->
-
           <div class="col-lg-7">
-            <h3 class="pt-0 pt-lg-5">
-              
-            </h3>
+
             <!-- Tabs -->
             <ul class="nav nav-pills mb-3">
-              <li><a class="nav-link active" data-bs-toggle="pill" href="#tab1">
-                Paper Submission
-              </a></li>
-              <li><a class="nav-link" data-bs-toggle="pill" href="#tab2">
-                Acceptance Notification
-              </a></li>
-              <li><a class="nav-link" data-bs-toggle="pill" href="#tab3">
-                Camera Ready
-              </a></li>
-            </ul><!-- End Tabs -->
+              <li>
+                <a class="nav-link active" data-bs-toggle="pill" href="#tab1">
+                  Paper Submission
+                </a>
+              </li>
+              <li>
+                <a class="nav-link" data-bs-toggle="pill" href="#tab2">
+                  Acceptance Notification
+                </a>
+              </li>
+              <li>
+                <a class="nav-link" data-bs-toggle="pill" href="#tab3">
+                  Camera Ready
+                </a>
+              </li>
+            </ul>
+            <!-- End Tabs -->
 
             <!-- Tab Content -->
             <div class="tab-content">
@@ -207,7 +243,7 @@
               </div>
               <!-- End Tab 1 Content -->
 
-              <div class="tab-pane fade show active" id="tab2">
+              <div class="tab-pane fade show" id="tab2">
                 <div class="d-flex align-items-center mt-4">
                   <h4>Acceptance notification</h4>
                 </div>
@@ -218,7 +254,7 @@
               </div>
               <!-- End Tab 2 Content -->
 
-              <div class="tab-pane fade show active" id="tab3">
+              <div class="tab-pane fade show" id="tab3">
                 <div class="d-flex align-items-center mt-4">
                   <h4>Camera Ready</h4>
                 </div>
@@ -230,7 +266,7 @@
               <!-- End Tab 3 Content -->
 
             </div>
-
+            <!--End tab content-->
           </div>
 
         </div>
@@ -240,7 +276,7 @@
     <!-- Call for papers Section -->
 
     <!--Program section start-->
-    <section id="cta" class="cta">
+    <section id="program" class="cta">
       <div class="container" data-aos="zoom-out">
         <div class="row g-5">
           <div class="col-lg-8 col-md-6 content d-flex flex-column justify-content-center order-last order-md-first">
@@ -258,7 +294,6 @@
     </section>
     <!--Program section end-->
 
-    <!--TODO colocar las imagenes correspondientes-->
     <!-- ======= Our speakers start ======= -->
     <section id="team" class="team">
       <div class="container" data-aos="fade-up">
@@ -273,7 +308,7 @@
           <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="200">
             <div class="team-member">
               <div class="member-img">
-                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+                <img src="assets/img/speakers/erik-arreazola.jpg" class="img-fluid" alt="">
               </div>
               <div class="member-info">
                 <div class="social">
@@ -294,7 +329,7 @@
           <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="400">
             <div class="team-member">
               <div class="member-img">
-                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+                <img src="assets/img/speakers/poncho-sandoval.jpg" class="img-fluid" alt="">
               </div>
               <div class="member-info">
                 <div class="social">
@@ -317,11 +352,8 @@
     </section>
     <!-- Our speakers end -->
 
-
-    <!--TODO colocar imagenes del venue-->
-    <!--TODO colocar el mapa mas ancho-->
     <!-- ======= Venue text Section ======= -->
-    <section id="cta" class="cta">
+    <section id="venue" class="cta">
       <div class="container" data-aos="zoom-out">
 
         <div class="row g-5">
@@ -341,7 +373,7 @@
 
           <div class="col-lg-4 col-md-6 order-first order-md-last d-flex align-items-center">
             <div class="img">
-              <img src="assets/img/cta.jpg" alt="" class="img-fluid">
+              <img src="assets/img/bg/cvdr.avif" alt="" class="img-fluid">
             </div>
           </div>
 
@@ -362,11 +394,7 @@
       <!-- End Google Maps -->
     </section>
     <!-- End Map Venue Section -->
-
-
-    <!--TODO añadir la seccion de texto-->
-    <!--TODO colocar la informacion-->
-    <!--TODO colocar las imagenes correspondientes-->
+    
     <!-- ======= ORGANIZERS & EDITORS start ======= -->
     <section id="team" class="team">
       <div class="container" data-aos="fade-up">
@@ -381,97 +409,83 @@
           <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="200">
             <div class="team-member">
               <div class="member-img">
-                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+                <picture>
+                  <source type="image/avif" srcset="assets/img/organizers/felix-mata.avif">
+                  <img src="assets/img/organizers/felix-mata.jpg" class="img-fluid" alt="">
+                </picture>
               </div>
               <div class="member-info">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
+                <h4>Dr. Miguel F&eacute;lix Mata Rivera</h4>
+                <span>General Chair</span>
               </div>
             </div>
           </div>
           <!-- End Team Member -->
 
           <!--Team member start-->
-          <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="400">
+          <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="200">
             <div class="team-member">
               <div class="member-img">
-                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+                <picture>
+                  <source type="image/avif" srcset="assets/img/organizers/cristian-barria.avif">
+                  <img src="assets/img/organizers/cristian-barria.jpg" class="img-fluid" alt="">
+                </picture>
               </div>
               <div class="member-info">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-                <h4>Sarah Jhonson</h4>
-                <span>Product Manager</span>
+                <h4>Dr. Cristian Barria</h4>
+                <span>Universidad Mayor</span>
+                <span>Security Track - Chair</span>
               </div>
             </div>
           </div>
           <!-- End Team Member -->
 
           <!--Team member start-->
-          <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="600">
+          <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="200">
             <div class="team-member">
               <div class="member-img">
-                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+                <picture>
+                  <img src="assets/img/organizers/roberto-zagal.jpg" class="img-fluid" alt="">
+                </picture>
               </div>
               <div class="member-info">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-                <h4>William Anderson</h4>
-                <span>CTO</span>
+                <h4>Dr. Roberto Zagal Flores</h4>
+                <span>ESCOM-IPN</span>
+                <span>Chair & Co-editor</span>
               </div>
             </div>
           </div>
           <!-- End Team Member -->
 
           <!--Team member start-->
-          <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="400">
+          <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="200">
             <div class="team-member">
               <div class="member-img">
-                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+                <picture>
+                  <img src="assets/img/organizers/carlos-nava.jpg" class="img-fluid" alt="">
+                </picture>
               </div>
               <div class="member-info">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-                <h4>Sarah Jhonson</h4>
-                <span>Product Manager</span>
+                <h4>M en C Carlos Hern&aacute;ndez Nava</h4>
+                <span>UPIITA-IPN</span>
+                <span>Co-chair</span>
               </div>
             </div>
           </div>
           <!-- End Team Member -->
 
           <!--Team member start-->
-          <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="600">
+          <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="200">
             <div class="team-member">
               <div class="member-img">
-                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+                <picture>
+                  <img src="assets/img/organizers/profile.png" class="img-fluid" alt="">
+                </picture>
               </div>
               <div class="member-info">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-                <h4>William Anderson</h4>
-                <span>CTO</span>
+                <h4>Dr. Sergio Quiroz Almaraz</h4>
+                <span>FES-ACATLAN & YMCA University</span>
+                <span>Networking Chair</span>
               </div>
             </div>
           </div>
@@ -482,18 +496,6 @@
       </div>
     </section>
     <!-- ORGANIZERS & EDITORS end -->
-
-    <!--TODO colocar la informacion-->
-    <!--TODO colocar las imagenes-->
-    <!--TODO buscar que las imagenes tengan color-->
-
-    <!--TODO colocar la informacion del footer-->
-    <!--TODO colocar los enlaces-->
-    <!--TODO colocar la imagen-->
-    <!--TODO arreglar call for papers, la informacion se muestra rara-->
-
-
-
 
     <!-- ======= PARTICIPANT INSTITUTIONS AND COLLABORATORS start ======= -->
     <section id="clients" class="clients">
@@ -507,24 +509,206 @@
       <div class="container" data-aos="zoom-out">
         <div class="clients-slider swiper">
           <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+            
+            <!--Logo escom -->
+            <div class="swiper-slide">
+              <picture>
+                <source type="image/avif" srcset="assets/img/collaborators/escom.avif" 
+                alt="">
+                <img src="assets/img/collaborators/escom.png" class="img-fluid" alt="">
+              </picture>
+            </div>
+            <!--End Logo-->
+
+            <!--Logo cuc-->
+            <div class="swiper-slide">
+              <picture>
+                <source type="image/avif" srcset="assets/img/collaborators/cuc.avif" 
+                alt="">
+                <img src="assets/img/collaborators/cuc.jpeg" class="img-fluid" alt="">
+              </picture>
+            </div>
+            <!--End Logo-->
+
+            <!--logo fes acatlan-->
+            <div class="swiper-slide">
+              <picture>
+                <source type="image/avif" srcset="assets/img/collaborators/fes.avif" 
+                alt="">
+                <img src="assets/img/collaborators/fes.jpeg" class="img-fluid" alt="">
+              </picture>
+            </div>
+            <!--end logo-->
+
+            <!--logo antonio jose camacho-->
+            <div class="swiper-slide">
+              <picture>
+                <source type="image/avif" srcset="assets/img/collaborators/antonio-jose-camacho.avif" 
+                alt="">
+                <img src="assets/img/collaborators/antonio-jose-camacho.png" class="img-fluid" alt="">
+              </picture>
+            </div>
+            <!--end logo-->
+
+            <!--logo YMCA-->
+            <div class="swiper-slide">
+              <picture>
+                <source type="image/avif" srcset="assets/img/collaborators/ymca.avif" 
+                alt="">
+                <img src="assets/img/collaborators/ymca.png" class="img-fluid" alt="">
+              </picture>
+            </div>
+            <!--end logo-->
+
+            <!--Logo laboratorio movil-->
+            <!--logo ipn-->
+            <!--logo upiita-->
+            <!--Logo cic-->
+
           </div>
         </div>
       </div>
     </section>
     <!-- PARTICIPANT INSTITUTIONS AND COLLABORATORS end -->
 
+    <!-- ======= Gallery Section ======= -->
+    <section id="portfolio" class="portfolio" data-aos="fade-up">
+      
+      <!--header section-->
+      <div class="container">
+        <div class="section-header">
+          <h2>Gallery</h2>
+        </div>
+      </div>
+      <!--end header section-->
+
+
+      <div class="container-fluid" data-aos="fade-up" data-aos-delay="200">
+        <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry" data-portfolio-sort="original-order">
+
+          <!--gallery filters-->
+          <ul class="portfolio-flters">
+            <li data-filter="*" class="filter-active">All</li>
+          </ul>
+          <!-- End gallery Filters -->
+
+          <!-- Start Gallery Container -->
+          <div class="row g-0 portfolio-container">
+
+            <!--Item -->
+            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item">
+              <picture>
+                <source type="image/avif" srcset="assets/img/gallery/photo1.avif">
+                <img src="assets/img/gallery/photo1.jpg" class="img-fluid" alt="">
+              </picture>
+              <div class="portfolio-info">
+                <h4>Photo 1</h4>
+                <a href="assets/img/gallery/photo1.jpg" 
+                   title="Photo 1" data-gallery="portfolio-gallery" 
+                   class="glightbox preview-link">
+                   <i class="bi bi-zoom-in"></i>
+                </a>
+              </div>
+            </div>
+            <!-- End Item -->
+
+            <!--Item -->
+            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item">
+              <picture>
+                <source type="image/avif" srcset="assets/img/gallery/photo2.avif">
+                <img src="assets/img/gallery/photo2.jpg" class="img-fluid" alt="">
+              </picture>
+              <div class="portfolio-info">
+                <h4>Photo 2</h4>
+                <a href="assets/img/gallery/photo2.jpg" 
+                   title="Photo 2" data-gallery="portfolio-gallery" 
+                   class="glightbox preview-link">
+                   <i class="bi bi-zoom-in"></i>
+                </a>
+              </div>
+            </div>
+            <!-- End Item -->
+
+            <!--Item -->
+            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item">
+              <picture>
+                <source type="image/avif" srcset="assets/img/gallery/photo3.avif">
+                <img src="assets/img/gallery/photo3.jpg" class="img-fluid" alt="">
+              </picture>
+              <div class="portfolio-info">
+                <h4>Photo 3</h4>
+                <a href="assets/img/gallery/photo3.jpg" 
+                   title="Photo 3" data-gallery="portfolio-gallery" 
+                   class="glightbox preview-link">
+                   <i class="bi bi-zoom-in"></i>
+                </a>
+              </div>
+            </div>
+            <!-- End Item -->
+
+            <!--Item -->
+            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item">
+              <picture>
+                <source type="image/avif" srcset="assets/img/gallery/photo4.avif">
+                <img src="assets/img/gallery/photo4.jpg" class="img-fluid" alt="">
+              </picture>
+              <div class="portfolio-info">
+                <h4>Photo 4</h4>
+                <a href="assets/img/gallery/photo4.jpg" 
+                   title="Photo 4" data-gallery="portfolio-gallery" 
+                   class="glightbox preview-link">
+                   <i class="bi bi-zoom-in"></i>
+                </a>
+              </div>
+            </div>
+            <!-- End Item -->
+
+            <!--Item -->
+            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item">
+              <picture>
+                <source type="image/avif" srcset="assets/img/gallery/photo5.avif">
+                <img src="assets/img/gallery/photo5.jpg" class="img-fluid" alt="">
+              </picture>
+              <div class="portfolio-info">
+                <h4>Photo 5</h4>
+                <a href="assets/img/gallery/photo5.jpg" 
+                   title="Photo 5" data-gallery="portfolio-gallery" 
+                   class="glightbox preview-link">
+                   <i class="bi bi-zoom-in"></i>
+                </a>
+              </div>
+            </div>
+            <!-- End Item -->
+
+            <!--Item -->
+            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item">
+              <picture>
+                <source type="image/avif" srcset="assets/img/gallery/photo6.avif">
+                <img src="assets/img/gallery/photo6.jpg" class="img-fluid" alt="">
+              </picture>
+              <div class="portfolio-info">
+                <h4>Photo 6</h4>
+                <a href="assets/img/gallery/photo6.jpg" 
+                   title="Photo 6" data-gallery="portfolio-gallery" 
+                   class="glightbox preview-link">
+                   <i class="bi bi-zoom-in"></i>
+                </a>
+              </div>
+            </div>
+            <!-- End Item -->
+
+          </div>
+          <!-- End Gallery Container -->
+
+        </div>
+      </div>
+    </section>
+    <!-- End Gallery Section -->
+
   </main>
   <!-- End #main -->
 
-  <!-- ======= Footer ======= -->
+  <!-- Footer -->
   <footer id="footer" class="footer">
 
     <div class="footer-content">
@@ -534,53 +718,43 @@
           <!--Primer columna start-->
           <div class="col-lg-3 col-md-6">
             <div class="footer-info">
-              <h3>WITCOM</h3>
+              <h3>#WeAreWitcom2022</h3>
               <p>
-                Direccion de la<br>
-                escuela
-                <br><br>
-                numero telefonico<br>
-                info@example.com<br>
+                Av Instituto Politécnico Nacional 2580, Gustavo A. Madero, CDMX
               </p>
             </div>
           </div>
           <!--Primer columna end-->
 
           <!--Segunda columna start-->
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">enlace</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">enlace</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">enlace</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">enlace</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">enlace</a></li>
-            </ul>
+          <div class="col-lg-3 col-md-6 footer-links">
+          </div>
+          <!--Segunda columna end-->
+
+          <!--Segunda columna start-->
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Contact Us</h4>
+            <p>
+              +52(55) 5729 6000 ext. 56940
+            </p>
+            <p>
+              Email: labmovil.upiita@ipn.mx
+            </p>
           </div>
           <!--Segunda columna end-->
 
           <!--Tercer columna start-->
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Useful links</h4>
+            <h4>Know More</h4>
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">enlace</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">enlace</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">enlace</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">enlace</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">enlace</a></li>
+              <li><i class="bi bi-chevron-right"></i>
+                <a href="https://www.labcomputomovil.upiita.ipn.mx">
+                  Laboratorio de computo movil
+                </a>
+              </li>
             </ul>
           </div>
           <!--Tercer columna end-->
-
-          <!--Cuarta columna start-->
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-          </div>
-          <!--Cuarta columna end-->
 
         </div>
       </div>
@@ -591,15 +765,20 @@
 
         <div class="d-flex flex-column align-items-center align-items-lg-start">
           <div class="copyright">
-            Web Developer | Mart&iacute;n Enr&iacute;quez
+            &#169; Laboratorio de Inteligencia GeoEspacial y Cómputo Móvil, UPIITA - IPN.
           </div>
         </div>
 
         <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
-          <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          <a href="https://www.facebook.com/WITCOMConferences/" class="facebook">
+            <i class="bi bi-facebook"></i>
+          </a>
+          <a href="https://www.instagram.com/witcomconferences/" class="instagram">
+            <i class="bi bi-instagram"></i>
+          </a>
+          <a href="https://twitter.com/upiitawitcom" class="twitter">
+            <i class="bi bi-twitter"></i>
+          </a>
         </div>
 
       </div>
@@ -626,3 +805,16 @@
 </body>
 
 </html>
+
+
+
+
+
+<!--seccion our speakers-->
+<!--TODO hacer que las imagenes se vean bien jajajajaja-->
+<!--colocar las imagenes de los colaboradores-->
+<!--TODO hacer que la imagen del nava se vea bien jajajajaja-->
+<!--seccion de colaboradores-->
+<!--TODO conseguir los svg en color negro o colocar los .avif-->
+
+

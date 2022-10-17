@@ -950,7 +950,7 @@ section {
 .hero-fullscreen {
   width: 100%;
   min-height: 100vh;
-  background: url("../img/bg/2c.png") center center;
+  background: url("../img/bg/2c.avif") center center;
   background-size: cover;
   position: relative;
   padding: 120px 0 60px;
@@ -1041,6 +1041,107 @@ section {
 
   .hero-fullscreen .btn-get-started,
   .hero-fullscreen .btn-watch-video {
+    font-size: 14px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Second Fullscreen Hero Section
+--------------------------------------------------------------*/
+.second-hero-fullscreen {
+  width: 100%;
+  min-height: 100vh;
+  background: url("../img/bg/cvdr.avif") center center;
+  background-size: cover;
+  position: relative;
+  padding: 120px 0 60px;
+}
+
+.second-hero-fullscreen:before {
+  content: "";
+  background: rgba(var(--color-black-rgb), 0.70);
+  position: absolute;
+  inset: 0;
+}
+
+@media (min-width: 1365px) {
+  .second-hero-fullscreen {
+    background-attachment: fixed;
+  }
+}
+
+.second-hero-fullscreen h2 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 300;
+  color: white;
+  font-family: var(--font-secondary);
+}
+
+.second-hero-fullscreen h2 span {
+  color: var(--color-primary);
+}
+
+.second-hero-fullscreen p {
+  color: rgba(var(--color-white-rgb), 0.8);
+  margin: 0 0 30px 0;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.second-hero-fullscreen .btn-get-started {
+  font-size: 16px;
+  font-weight: 400;
+  display: inline-block;
+  padding: 10px 28px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: var(--color-white);
+  background: var(--color-primary);
+  font-family: var(--font-secondary);
+}
+
+.second-hero-fullscreen .btn-get-started:hover {
+  background: rgba(var(--color-primary-rgb), 0.8);
+}
+
+.second-hero-fullscreen .btn-watch-video {
+  font-size: 16px;
+  transition: 0.5s;
+  margin-left: 25px;
+  font-family: var(--font-secondary);
+  color: var(--color-secondary);
+  font-weight: 600;
+}
+
+.second-hero-fullscreen .btn-watch-video i {
+  color: var(--color-primary);
+  font-size: 32px;
+  transition: 0.3s;
+  line-height: 0;
+  margin-right: 8px;
+}
+
+.second-hero-fullscreen .btn-watch-video:hover {
+  color: var(--color-primary);
+}
+
+.second-hero-fullscreen .btn-watch-video:hover i {
+  color: rgba(var(--color-primary-rgb), 0.8);
+}
+
+@media (max-width: 640px) {
+  .second-hero-fullscreen h2 {
+    font-size: 32px;
+  }
+
+  .second-hero-fullscreen p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  .second-hero-fullscreen .btn-get-started,
+  .second-hero-fullscreen .btn-watch-video {
     font-size: 14px;
   }
 }
@@ -1384,12 +1485,12 @@ section {
 
 .onfocus .video-play {
   min-height: 400px;
-  background: linear-gradient(rgba(var(--color-black-rgb), 0.4), rgba(var(--color-black-rgb), 0.7)), url("../img/onfocus-video-bg.jpg") center center;
+  background: linear-gradient(rgba(var(--color-black-rgb), 0.4), rgba(var(--color-black-rgb), 0.7)), url("../img/bg/2b.avif") center center;
   background-size: cover;
 }
 
 .onfocus .content {
-  background: linear-gradient(rgba(var(--color-secondary-rgb), 0.5), rgba(var(--color-secondary-rgb), 0.8)), url("../img/onfocus-content-bg.jpg") center center;
+  background: linear-gradient(rgba(var(--color-secondary-rgb), 0.5), rgba(var(--color-secondary-rgb), 0.8)), url("../img/onfocus-content-bg.avif") center center;
   background-size: cover;
   color: rgba(var(--color-white-rgb), 0.8);
   padding: 40px;
@@ -2317,7 +2418,7 @@ section {
 .contact .map iframe {
   border: 0;
   width: 100%;
-  height: 400px;
+  height: 600px;
 }
 
 .contact .info {

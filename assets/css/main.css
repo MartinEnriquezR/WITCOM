@@ -1051,7 +1051,7 @@ section {
 .second-hero-fullscreen {
   width: 100%;
   min-height: 100vh;
-  background: url("../img/bg/cvdr.webp") center center;
+  background: url("../img/bg/cvdr.jpg") center center;
   background-size: cover;
   position: relative;
   padding: 120px 0 60px;
@@ -1485,12 +1485,12 @@ section {
 
 .onfocus .video-play {
   min-height: 400px;
-  background: linear-gradient(rgba(var(--color-black-rgb), 0.4), rgba(var(--color-black-rgb), 0.7)), url("../img/bg/2b.webp") center center;
+  background: linear-gradient(rgba(var(--color-black-rgb), 0.4), rgba(var(--color-black-rgb), 0.7)), url("../img/bg/2b.png") center center;
   background-size: cover;
 }
 
 .onfocus .content {
-  background: linear-gradient(rgba(var(--color-secondary-rgb), 0.5), rgba(var(--color-secondary-rgb), 0.8)), url("../img/bg/onfocus-content-bg.webp") center center;
+  background: linear-gradient(rgba(var(--color-secondary-rgb), 0.5), rgba(var(--color-secondary-rgb), 0.8)), url("../img/bg/onfocus-content-bg.jpg") center center;
   background-size: cover;
   color: rgba(var(--color-white-rgb), 0.8);
   padding: 40px;
